@@ -1,0 +1,28 @@
+.modal-container {
+  width: 1000px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.modal-container h4 {
+  border-bottom: 2px solid red;
+  padding-left: 10px;
+}
+
+.mail-heading {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid red;
+}
+
+.mail-heading button {
+  margin-right: 20px;
+}
+
+.modal-container h6 {
+  padding: 10px;
+}

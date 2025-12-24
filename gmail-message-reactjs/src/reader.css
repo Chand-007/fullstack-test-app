@@ -1,0 +1,39 @@
+.reader-container-check {
+  width: 70%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.reader-container-check input[type="checkbox"] {
+  width: 30px;
+  height: 100%;
+}
+
+.reader-container {
+  display: flex;
+  width: 80vw;
+  height: 30px;
+  margin-top: 20px;
+  background-color: rgb(148, 149, 214);
+  border: 1.5px solid black;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.reader-container-pagination {
+  width: 10%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  column-gap: 10px;
+}
+
+.reader-container-pagination button {
+  width: 60px;
+  height: 25px;
+}
