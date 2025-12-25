@@ -4,7 +4,7 @@ var app = express()
 
 app.use(cors())
 
-app.get('/',(req,res)=>{
+app.get('/api',(req,res)=>{
     async function fetchComments(){
         
         const raw_comments = await fetch("https://jsonplaceholder.typicode.com/comments")
