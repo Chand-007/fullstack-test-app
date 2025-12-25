@@ -20,7 +20,7 @@ export default function App() {
     async function getProducts() {
 
       try{
-        const comments = await fetch("http://localhost:5000/");
+        const comments = await fetch("http://backend:5000/");
         const comments_promise = await comments.json();
         setComments(comments_promise);
         console.log("comments_promise",comments_promise)
