@@ -4,7 +4,7 @@ var app = express()
 
 app.use(cors())
 
-app.get('/api',(req,res)=>{
+app.get('/',(req,res)=>{
     async function fetchComments(){
         
         const raw_comments = await fetch("https://jsonplaceholder.typicode.com/comments")
@@ -14,6 +14,6 @@ app.get('/api',(req,res)=>{
     fetchComments()
 })
 
-app.listen(5000,'0.0.0.0',()=>{
+app.listen(5000,()=>{
     console.log("Server listening on port 5000")
 })
