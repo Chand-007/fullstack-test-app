@@ -10,3 +10,9 @@ services:
     build: backend-server
     ports:
       - "5000:5000"
+
+  nginx:
+    build: .
+    ports:
+      - "8080:8080"
+      - "4000:4000"
